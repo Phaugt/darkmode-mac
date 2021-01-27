@@ -67,7 +67,7 @@ def set_interface_style(dark: bool):
 
 class Darkmode(rumps.App):
     def __init__(self):
-        super(Darkmode, self).__init__('pythonexplainedto.me')
+        super(Darkmode, self).__init__('darkmode')
         self.icon = dm_logo
 
     @rumps.clicked("Darkmode")
